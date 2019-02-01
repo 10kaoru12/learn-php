@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <title>PHPテスト</title>
+</head>
+<body>
+
+<p>PHPのテストです。</p>
+
+<p>
+    <?php
+    $var1=208;
+    if($var1===208){
+        print "変数の値は208と同一です。<br/>";
+    }
+    $var1=12;
+    $var2="12";
+    if($var1===$var2){
+        print "12==='12'はtrueです。<br/>";
+    }
+    else{
+        print "12==='12'はfalseです。<br/>";
+    }
+    $var1="tokyo";
+    if($var1==='tokyo'){
+        print "変数の値は'tokyo'と同一です。";
+    }
+    ?>
+</p>
+
+</body>
+</html>
